@@ -33,38 +33,3 @@
     url('../fonts/barlow-v5-latin-700.woff2') format('woff2'), 
     url('../fonts/barlow-v5-latin-700.woff') format('woff');
 }
-
-*{
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Fraunces', 'Barlow', sans-serif;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    border: 0;
-    clip: rect(0 0 0 0)
-}
-
-ul, ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-img {
-    vertical-align: middle;
-}
