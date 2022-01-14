@@ -1,4 +1,32 @@
 .nav__container {
     display: flex;
-    
+    vertical-align: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
 }
+
+.nav__item-ist {
+    display: flex;
+    vertical-align: center;
+    padding: 0;
+    margin: 0;
+    
+    .nav__item {
+    }
+    
+    .nav__link {
+        font-size: $nav-menu-font-family;
+        font-weight: $nav-menu-font-weight;        
+        font-style: normal;
+        font-size: 12px;
+        line-height: 15px;            
+        text-transform: uppercase;
+        color: $grey;
+        margin-left: 32px;
+        letter-spacing: 0.923077px;
+
+    }
+}
+

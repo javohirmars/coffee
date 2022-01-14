@@ -377,7 +377,7 @@ template {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Fraunces', 'Barlow', sans-serif;
+  font-family: 'Barlow', 'Fraunces', sans-serif;
 }
 
 .visually-hidden {
@@ -406,10 +406,43 @@ img {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1320px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.nav__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.nav__item-ist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item-ist .nav__link {
+  font-size: "Barlow";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #83888F;
+  margin-left: 32px;
+  letter-spacing: 0.923077px;
 }
 /*# sourceMappingURL=main.css.map */
