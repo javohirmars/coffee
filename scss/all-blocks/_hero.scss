@@ -1,0 +1,40 @@
+.hero {
+    margin-bottom: 136px;
+
+    &__bg-image {
+        background-image: url(./../../images/bitmap.jpg);
+        background-position: center;
+        // background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    &__wrapper {
+        width: 500px;
+        padding-left: 85px;
+        padding-top: 117px;
+        padding-bottom: 116px;
+    }    
+    
+    &__heading {
+        width: 500px;
+        font-family: Fraunces;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: $hero-heading-color;
+        margin-bottom: 32px;
+    }
+    
+    &__text {
+        color: $hero-heading-color;
+        width: 400px;
+        font-family: $nav-menu-font-family;
+        font-size: 16px;
+        line-height: 26px;
+        opacity: 0.8;
+        margin-bottom: 71px;
+    }
+    
+}

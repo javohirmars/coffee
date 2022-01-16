@@ -1,6 +1,6 @@
 .nav__container {
     display: flex;
-    vertical-align: center;
+    align-items: center;
     justify-content: space-between;
     padding-top: 45px;
     padding-bottom: 45px;
@@ -13,11 +13,8 @@
     padding: 0;
     margin: 0;
     
-    .nav__item {
-    }
-    
     .nav__link {
-        font-size: $nav-menu-font-family;
+        font-family: $nav-menu-font-family;
         font-weight: $nav-menu-font-weight;        
         font-style: normal;
         font-size: 12px;
@@ -27,6 +24,14 @@
         margin-left: 32px;
         letter-spacing: 0.923077px;
 
+        &:hover {
+            color: $grey-hover; 
+        }
+
     }
+}
+
+.nav__link-active {
+    box-shadow: $grey-shadow;
 }
 
