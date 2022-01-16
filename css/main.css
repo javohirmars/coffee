@@ -454,7 +454,7 @@ img {
   margin: 0;
 }
 
-.nav__item-ist .nav__link {
+.nav__link {
   font-family: "Barlow";
   font-weight: 700;
   font-style: normal;
@@ -466,7 +466,7 @@ img {
   letter-spacing: 0.923077px;
 }
 
-.nav__item-ist .nav__link:hover {
+.nav__link:hover {
   color: #000000;
 }
 
