@@ -471,8 +471,7 @@ img {
 }
 
 .nav__link-active {
-  -webkit-box-shadow: 0px 1px 0px #000000;
-          box-shadow: 0px 1px 0px #000000;
+  color: black;
 }
 
 .hero {
@@ -501,6 +500,7 @@ img {
   font-size: 72px;
   line-height: 72px;
   color: #FFFFFF;
+  margin: 0;
   margin-bottom: 32px;
 }
 
@@ -512,5 +512,60 @@ img {
   line-height: 26px;
   opacity: 0.8;
   margin-bottom: 71px;
+}
+
+.collection__container {
+  padding: 130px 20px;
+  padding-top: 130px;
+  padding-left: 85px;
+  padding-right: 85px;
+  background-image: url(./../../images/collection-bg.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 5px;
+  margin-bottom: 200px;
+}
+
+.collection__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.collection__item {
+  width: 255px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.collection__img {
+  width: 255px;
+  height: 193px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 68px;
+}
+
+.collection__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333D4B;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.collection__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333D4B;
 }
 /*# sourceMappingURL=main.css.map */
