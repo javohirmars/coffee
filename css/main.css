@@ -515,7 +515,6 @@ img {
 }
 
 .collection__container {
-  padding: 130px 20px;
   padding-top: 130px;
   padding-left: 85px;
   padding-right: 85px;
@@ -567,5 +566,107 @@ img {
   line-height: 26px;
   text-align: center;
   color: #333D4B;
+}
+
+.preporties__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: #2C343E;
+  border-radius: 10px;
+  margin-bottom: 350px;
+}
+
+.preporties__heading {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.preporties__text {
+  width: 540px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 86px;
+}
+
+.preporties__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: -150px;
+}
+
+.preporties__list-item {
+  background: #0E8784;
+  border-radius: 8px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.preporties__item-img {
+  width: 72px;
+  height: 72px;
+  margin-top: 72px;
+  margin-bottom: 56px;
+}
+
+.preporties__item-heading {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FEFCF7;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.preporties__item-text {
+  width: 255px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  margin-top: 0;
+  margin-left: 47px;
+  margin-bottom: 48px;
+  margin-right: 47px;
 }
 /*# sourceMappingURL=main.css.map */
