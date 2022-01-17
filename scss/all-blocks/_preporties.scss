@@ -1,17 +1,19 @@
 .preporties {   
     &__container {
+        width: 1280px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
 
+        background-color: #2C343E;
+        border-radius: 10px;
+
         padding-top: 100px;
         padding-left: 60px;
         padding-right: 60px;
         
-        background-color: #2C343E;
-        border-radius: 10px;
         margin-bottom: 350px;
     }
     

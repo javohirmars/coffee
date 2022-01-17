@@ -1,0 +1,37 @@
+.footer {
+
+    &__container {
+        background-color: #2C343E;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 47px 85px;
+        margin-bottom: 88px;
+    }
+
+    &__left-side {
+        display: flex;
+        align-items: center;
+    }
+
+    &__link-active {
+        color: $light-white;
+    }
+
+    &__net-pages {
+        display: flex;
+    }
+    
+    &__net-page {
+        margin-left: 24px;
+    }
+
+    // &__net-link {
+    // }
+
+    // &__net-page-logo {
+    // }
+
+    // &__net-logo {
+    // }
+}
