@@ -1,0 +1,81 @@
+.howitworks {
+
+    &__container {
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-bottom: 64px;
+    }
+
+    &__heading {
+        font-family: $Fraunces-font-family;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;        
+        color: #83888F;        
+        margin: 0;
+        margin-bottom: 80px;
+    }
+
+    &__list {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 64px;
+    }
+
+    &__item {
+        width: 380px;
+    }
+
+    &__spans {
+        display: flex;
+        align-items: center;
+        margin-bottom: 67px;
+    }
+
+    &__item-oval {
+        width: 31px;
+        height: 31px;
+        background-color: $light-white;
+        border: 2px solid #0E8784;
+        border-radius: 50%;
+    }
+
+    &__item-line {
+        width: 349px;
+        height: 2px;
+        color: #FDD6BA;
+        border: 2px solid #FDD6BA;
+    }
+
+    &__item-img {
+        width: 101px;
+        height: 72px;
+        margin-bottom: 38px;
+    }
+
+    &__item-heading {
+        width: 255px;
+        font-family: $Fraunces-font-family;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;        
+        color: #333D4B;        
+        margin: 0;
+        margin-bottom: 42px;
+    }
+
+    &__text {
+        width: 285px;
+        font-family: $nav-menu-font-family;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;        
+        color: #333D4B;        
+        padding: 0;
+        margin: 0;
+    }
+}
