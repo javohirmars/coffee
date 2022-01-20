@@ -1,12 +1,21 @@
 .hero {
+    &__container {
     margin-bottom: 136px;
+    }
 
+    &__container--about {
+        margin-bottom: 168px;
+    }
     &__bg-image {
-        background-image: url(./../../images/bitmap.jpg);
+        background-image: url(./../images/bitmap.jpg);
         background-position: center;
-        // background-repeat: no-repeat;
+        background-repeat: no-repeat;
         background-size: cover;
         border-radius: 10px 10px 10px 10px;
+    }
+
+    &__bg-image--about {
+        background-image: url(./../images/bitmap2.jpg);
     }
     
     &__wrapper {
@@ -14,7 +23,14 @@
         padding-left: 85px;
         padding-top: 117px;
         padding-bottom: 116px;
-    }    
+    } 
+    
+    &__wrapper--about {
+        width: 500px;
+        padding-left: 85px;
+        padding-top: 137px;
+        padding-bottom: 137px;
+    } 
     
     &__heading {
         width: 500px;
@@ -27,6 +43,12 @@
         margin: 0;
         margin-bottom: 32px;
     }
+
+    &__heading--about {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 24px;
+    }
     
     &__text {
         color: $hero-heading-color;
@@ -36,6 +58,13 @@
         line-height: 26px;
         opacity: 0.8;
         margin-bottom: 71px;
+    }
+
+    &__text--about {
+        width: 440px;
+
+        opacity: 1;
+        margin-bottom: 0;
     }
     
 }

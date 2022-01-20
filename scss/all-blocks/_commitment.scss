@@ -1,0 +1,75 @@
+.commitment {
+    
+    &__container {
+        margin-bottom: 244px;
+    }
+    
+    &__container-quality {
+        margin-bottom: 168px;
+    }
+    
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+    
+    &__wrapper-quality {        
+        background-color: $footer-color;
+        border-radius: 10px;  
+    }
+    
+    
+    &__img {
+        border-radius: 8px;
+        margin-right: 125px;
+    }
+
+    &__box {
+        width: 540px;
+    }
+
+    &__box-quality {
+        padding-top: 88px;
+        padding-bottom: 88px;      
+    }
+
+    &__heading {
+        font-family: $Fraunces-font-family;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333D4B;        
+        margin: 0;
+        margin-bottom: 32px;
+    }
+    
+    &__heading-quality {
+        color: $light-white;
+    }
+    
+    &__text {
+        font-family: $nav-menu-font-family;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        mix-blend-mode: normal;
+        opacity: 0.8;    
+        margin: 0;
+    }
+
+    &__text-quality {
+        color: $light-white;
+        padding-bottom: 88px;
+    }
+
+    &__img-quality {
+        border-radius: 8px;
+        margin-top: -176px;
+        margin-left: 125px;
+    }
+}

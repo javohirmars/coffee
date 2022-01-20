@@ -1,7 +1,7 @@
 .footer {
 
     &__container {
-        background-color: #2C343E;
+        background-color: $footer-color;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -12,6 +12,10 @@
     &__left-side {
         display: flex;
         align-items: center;
+    }
+
+    &__logo-img {
+        margin-right: 103px;
     }
 
     &__link-active {
@@ -25,13 +29,4 @@
     &__net-page {
         margin-left: 24px;
     }
-
-    // &__net-link {
-    // }
-
-    // &__net-page-logo {
-    // }
-
-    // &__net-logo {
-    // }
 }
