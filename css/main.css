@@ -383,6 +383,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Fraunces', 'Barlow', sans-serif;
+  background: #FEFCF7;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -878,6 +879,62 @@ main {
   margin-left: 125px;
 }
 
+.headquarter {
+  margin-bottom: 168px;
+}
+
+.headquarter__container {
+  padding-left: 105px;
+  padding-right: 105px;
+}
+
+.headquarter__heading {
+  color: #83888F;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+  margin-bottom: 72px;
+}
+
+.headquarter__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.headquarter__item--img {
+  margin-bottom: 45px;
+}
+
+.headquarter__item--heading {
+  width: 300px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  margin: 0;
+  margin-right: 80px;
+  margin-bottom: 24px;
+}
+
+.headquarter__item--info {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.footer {
+  margin-bottom: 88px;
+}
+
 .footer__container {
   background-color: #2C343E;
   display: -webkit-box;
@@ -890,7 +947,6 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 47px 85px;
-  margin-bottom: 88px;
 }
 
 .footer__left-side {

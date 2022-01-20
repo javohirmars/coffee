@@ -1,12 +1,13 @@
 .footer {
-
+    margin-bottom: 88px;
+    
     &__container {
         background-color: $footer-color;
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 47px 85px;
-        margin-bottom: 88px;
+        // margin-bottom: 88px;
     }
 
     &__left-side {
