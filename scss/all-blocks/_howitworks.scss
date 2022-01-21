@@ -1,9 +1,17 @@
 .howitworks {
 
     &__container {
-        padding-left: 100px;
-        padding-right: 100px;
-        margin-bottom: 200px;
+        padding-left: 105px;
+        padding-right: 105px;
+        margin-bottom: 160px;
+    }
+
+    &__background {
+        background-color: $footer-color;
+        border-radius: 10px;
+        padding-top: 91px;
+        padding-bottom: 107px;
+
     }
 
     &__heading {
@@ -24,9 +32,14 @@
         margin-bottom: 64px;
     }
 
+    &__list-nomargin {
+        margin-bottom: 0px;
+    }
+
     &__item {
         width: 380px;
     }
+
 
     &__spans {
         display: flex;
@@ -40,6 +53,10 @@
         background-color: $light-white;
         border: 2px solid #0E8784;
         border-radius: 50%;
+    }
+
+    &__item-oval-oq {
+        background-color: #00000000;
     }
 
     &__item-line {
@@ -66,6 +83,10 @@
         margin: 0;
         margin-bottom: 42px;
     }
+    
+    &__item-heading-white {
+        color: #FEFCF7;
+    }
 
     &__text {
         width: 285px;
@@ -77,5 +98,8 @@
         color: #333D4B;        
         padding: 0;
         margin: 0;
+    }
+    &__item-text-white {
+        color: #FEFCF7;
     }
 }

@@ -1,21 +1,35 @@
 .hero {
-    &__container {
-    margin-bottom: 136px;
-    }
+    
+    &__container--home {
+        margin-bottom: 136px;
 
+    }
     &__container--about {
         margin-bottom: 168px;
     }
+    
+    &__container--create {
+        margin-bottom: 177px;
+    }
+    
     &__bg-image {
-        background-image: url(./../images/bitmap.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 10px 10px 10px 10px;
     }
-
+    &__bg-image--home {
+        background-image: url(./../images/bitmap.jpg);
+    }
+    
     &__bg-image--about {
         background-image: url(./../images/bitmap2.jpg);
+        height: 450px;
+    }
+    
+    &__bg-image--create {
+        background-image: url(./../images/bitmap3.jpg);
+        height: 450px;
     }
     
     &__wrapper {
@@ -43,11 +57,18 @@
         margin: 0;
         margin-bottom: 32px;
     }
-
+    
     &__heading--about {
         font-size: 40px;
         line-height: 48px;
         margin-bottom: 24px;
+    }
+    
+    &__heading--create {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;        
+        margin-bottom: 32px;
     }
     
     &__text {
@@ -57,13 +78,15 @@
         font-size: 16px;
         line-height: 26px;
         opacity: 0.8;
+        margin: 0;
         margin-bottom: 71px;
     }
-
+    
     &__text--about {
         width: 440px;
-
+        
         opacity: 1;
+        margin: 0;
         margin-bottom: 0;
     }
     
