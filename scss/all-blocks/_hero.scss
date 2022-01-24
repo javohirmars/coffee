@@ -2,7 +2,7 @@
     
     &__container--home {
         margin-bottom: 136px;
-
+        
     }
     &__container--about {
         margin-bottom: 168px;
@@ -91,3 +91,28 @@
     }
     
 }
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    
+    .hero {
+        &__bg-image--home {
+            background-image: url(./../images/bitmap@2x.jpg);
+        }
+        
+        &__bg-image--about {
+            background-image: url(./../images/bitmap2@2x.jpg);
+            height: 450px;
+        }
+        
+        &__bg-image--create {
+            background-image: url(./../images/bitmap3@2x.jpg);
+            height: 450px;
+        }
+    }
+} 

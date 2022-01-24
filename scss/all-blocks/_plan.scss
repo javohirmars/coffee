@@ -101,10 +101,13 @@
 
 .summary {
         
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    margin-right: 120px;
+    padding-right: 125px;
+    
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
 
     &__box {
         max-width: 730px;

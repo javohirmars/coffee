@@ -594,6 +594,20 @@ hr {
   margin-bottom: 0;
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .hero__bg-image--home {
+    background-image: url(./../images/bitmap@2x.jpg);
+  }
+  .hero__bg-image--about {
+    background-image: url(./../images/bitmap2@2x.jpg);
+    height: 450px;
+  }
+  .hero__bg-image--create {
+    background-image: url(./../images/bitmap3@2x.jpg);
+    height: 450px;
+  }
+}
+
 .collection__container {
   padding-top: 130px;
   padding-left: 85px;
@@ -1090,6 +1104,10 @@ hr {
 }
 
 .summary {
+  padding-right: 125px;
+}
+
+.summary__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1100,7 +1118,6 @@ hr {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
-  margin-right: 120px;
 }
 
 .summary__box {
@@ -1132,6 +1149,8 @@ hr {
 }
 
 .footer {
+  padding-left: 35px;
+  padding-right: 35px;
   margin-bottom: 88px;
 }
 
@@ -1147,8 +1166,6 @@ hr {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 47px 85px;
-  margin-left: 35px;
-  margin-right: 35px;
   margin-bottom: 88px;
 }
 
