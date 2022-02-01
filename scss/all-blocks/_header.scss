@@ -1,10 +1,17 @@
 .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $light-white;
+    padding-top: 43px;
+    padding-bottom: 43px;      
+    z-index: 9999;
+
     &__container {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-top: 45px;
-        padding-bottom: 45px;      
     }
     
     &__item-ist {
@@ -13,7 +20,11 @@
         padding: 0;
         margin: 0;       
     }
-    
+
+    &__item:not(:first-child) {
+        margin-left: 32px;
+    }
+
     &__link {
         font-family: $nav-menu-font-family;
         font-weight: 700;        
@@ -22,13 +33,14 @@
         line-height: 15px;            
         text-transform: uppercase;
         color: $grey;
-        margin-left: 32px;
         letter-spacing: 0.923077px;
         
         &:hover {
             color: $grey-hover; 
         }
     }
+
+
 
     &__link-active {
         color: black;
