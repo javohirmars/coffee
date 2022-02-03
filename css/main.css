@@ -513,8 +513,24 @@ hr {
   color: #000000;
 }
 
+.nav .menu__burger {
+  border: none;
+  background: none;
+  display: none;
+}
+
+.nav .menu__off {
+  display: none;
+}
+
 .nav__link-active {
   color: black;
+}
+
+.logo-link {
+  max-width: 236px;
+  width: 100%;
+  height: auto;
 }
 
 .hero__container--home {
@@ -625,7 +641,7 @@ hr {
   padding-top: 130px;
   padding-left: 85px;
   padding-right: 85px;
-  background-image: url(./../../images/collection-bg.svg);
+  background-image: url(./../images/collection-bg.svg);
   background-repeat: no-repeat;
   background-position: center top;
   margin-bottom: 200px;

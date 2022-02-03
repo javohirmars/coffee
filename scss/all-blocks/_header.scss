@@ -40,9 +40,32 @@
         }
     }
 
+    .menu {
+
+        &__burger {
+            border: none;
+            background: none;
+            display: none;
+        }
+        
+        &__on {
+        }
+        
+        &__off {
+            display: none;
+        }
+    }
 
 
     &__link-active {
         color: black;
     }
 }
+
+.logo-link {
+    max-width: 236px;
+    width: 100%;
+    height: auto;
+}
+
+
